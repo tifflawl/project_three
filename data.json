@@ -1,0 +1,52 @@
+{
+  "nycrec": [
+    {
+      "name": "Komune",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Lower East Side",
+        "borough": "Manhattan",
+        "address": "92 Orchard St",
+        "zip": 10002
+      },
+      "phone": "(917) 364-5787",
+      "open": {
+        "days": "Monday, Tuesday, Thursday, Friday, Saturday, Sunday",
+        "closed": "Wednesday"
+      },
+      "price": "$$$",
+      "type": "Clothing",
+      "description": "A curated selection of emerging Asian fashion designers.",
+      "image": {
+        "exterior": "src/assets/komune 1.jpg",
+        "interior": "src/assets/komune 2.jpg"
+      },
+      "website": "https://komune.space/",
+      "instagram": "https://www.instagram.com/komune.space/"
+    },
+    {
+      "name": "Happy99",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Chinatown",
+        "borough": "Manhattan",
+        "address": "92 Orchard St",
+        "zip": 10002
+      },
+      "phone": "(646) 952-0299",
+      "open": {
+        "days": "Wednesday, Thursday, Friday, Saturday, Sunday",
+        "closed": "Monday, Tuesday"
+      },
+      "price": "$$",
+      "type": "Clothing",
+      "description": "Archival '90s fashion meets futuristic video game aesthetics in Happy99's colorful, anachronistic clothes.",
+      "image": {
+        "exterior": "src/assets/komune 1.jpg",
+        "interior": "src/assets/komune 2.jpg"
+      },
+      "website": "https://happy99.online/",
+      "instagram": "https://www.instagram.com/happy99.online"
+    }
+  ]
+}
