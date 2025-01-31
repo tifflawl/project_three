@@ -1,28 +1,196 @@
 {
   "nycrec": [
     {
-      "name": "Komune",
+      "name": "Apollo’s Bagels",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "East Village",
+        "borough": "Manhattan",
+        "address": "245 E 13th St",
+        "zip": 10003
+      },
+      "phone": "(844) 218-3081",
+      "open": {
+        "days": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+        "closed": null
+      },
+      "price": "$",
+      "type": "Food",
+      "description": null,
+      "image": {
+        "exterior": "src/assets/apollo 2.jpeg",
+        "interior": "src/assets/apollo 2.jpeg"
+      },
+      "website": "https://www.apollobagels.com/",
+      "instagram": "https://www.instagram.com/apollobagels"
+    },
+    {
+      "name": "Blue in Green",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "SoHo",
+        "borough": "Manhattan",
+        "address": "8 Rivington St",
+        "zip": 10002
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Clothing",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/blue_in_green_exterior.jpg",
+        "interior": "https://example.com/blue_in_green_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Bossa Nova Civic Club",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Bushwick",
+        "borough": "Brooklyn",
+        "address": "1271 Myrtle Ave",
+        "zip": 11221
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Bar",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/bossa_nova_exterior.jpg",
+        "interior": "https://example.com/bossa_nova_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Cha An",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "East Village",
+        "borough": "Manhattan",
+        "address": "230 E 9th St",
+        "zip": 10003
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Food",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/cha_an_exterior.jpg",
+        "interior": "https://example.com/cha_an_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Double Chicken Please",
       "location": {
         "city": "New York, NY",
         "neighborhood": "Lower East Side",
         "borough": "Manhattan",
-        "address": "92 Orchard St",
+        "address": "115 Allen St",
         "zip": 10002
       },
-      "phone": "(917) 364-5787",
+      "phone": null,
       "open": {
-        "days": "Monday, Tuesday, Thursday, Friday, Saturday, Sunday",
-        "closed": "Wednesday"
+        "days": null,
+        "closed": null
       },
-      "price": "$$$",
-      "type": "Clothing",
-      "description": "A curated selection of emerging Asian fashion designers.",
+      "price": null,
+      "type": "Food",
+      "description": null,
       "image": {
-        "exterior": "src/assets/komune 1.jpg",
-        "interior": "src/assets/komune 2.jpg"
+        "exterior": "https://example.com/double_chicken_exterior.jpg",
+        "interior": "https://example.com/double_chicken_interior.jpg"
       },
-      "website": "https://komune.space/",
-      "instagram": "https://www.instagram.com/komune.space/"
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Eavesdrop",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Williamsburg",
+        "borough": "Brooklyn",
+        "address": "159 Grand St",
+        "zip": 11249
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Bar",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/eavesdrop_exterior.jpg",
+        "interior": "https://example.com/eavesdrop_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Eileen’s Special Cheesecake",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Nolita",
+        "borough": "Manhattan",
+        "address": "17 Cleveland Pl",
+        "zip": 10012
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Food",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/eileens_exterior.jpg",
+        "interior": "https://example.com/eileens_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Forma Pasta Factory",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Greenpoint",
+        "borough": "Brooklyn",
+        "address": "69 Norman Ave",
+        "zip": 11222
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Food",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/forma_pasta_exterior.jpg",
+        "interior": "https://example.com/forma_pasta_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
     },
     {
       "name": "Happy99",
@@ -47,6 +215,366 @@
       },
       "website": "https://happy99.online/",
       "instagram": "https://www.instagram.com/happy99.online"
+    },
+    {
+      "name": "Kenka",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "East Village",
+        "borough": "Manhattan",
+        "address": "25 St Marks Pl",
+        "zip": 10003
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Food",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/kenka_exterior.jpg",
+        "interior": "https://example.com/kenka_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Komune",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Lower East Side",
+        "borough": "Manhattan",
+        "address": "92 Orchard St",
+        "zip": 10002
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Clothing",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/komune_exterior.jpg",
+        "interior": "https://example.com/komune_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Mood Ring",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Bushwick",
+        "borough": "Brooklyn",
+        "address": "1278 Myrtle Ave",
+        "zip": 11221
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Bar",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/mood_ring_exterior.jpg",
+        "interior": "https://example.com/mood_ring_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Museum of Modern Art",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Midtown",
+        "borough": "Manhattan",
+        "address": "11 W 53rd St",
+        "zip": 10019
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Museum",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/moma_exterior.jpg",
+        "interior": "https://example.com/moma_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Nintendo Store",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Rockefeller Center",
+        "borough": "Manhattan",
+        "address": "10 Rockefeller Plaza",
+        "zip": 10020
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Retail",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/nintendo_exterior.jpg",
+        "interior": "https://example.com/nintendo_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Noguchi Museum",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Long Island City",
+        "borough": "Queens",
+        "address": "9-01 33rd Rd",
+        "zip": 11106
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Museum",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/noguchi_exterior.jpg",
+        "interior": "https://example.com/noguchi_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Nowadays",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Ridgewood",
+        "borough": "Queens",
+        "address": "56-06 Cooper Ave",
+        "zip": 11385
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Bar",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/nowadays_exterior.jpg",
+        "interior": "https://example.com/nowadays_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Paulie Gee’s Slice Shop",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Greenpoint",
+        "borough": "Brooklyn",
+        "address": "110 Franklin St",
+        "zip": 11222
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Food",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/paulie_gees_exterior.jpg",
+        "interior": "https://example.com/paulie_gees_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Printed Matter",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Chelsea",
+        "borough": "Manhattan",
+        "address": "231 11th Ave",
+        "zip": 10001
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Bookstore",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/printed_matter_exterior.jpg",
+        "interior": "https://example.com/printed_matter_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Public Records",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Gowanus",
+        "borough": "Brooklyn",
+        "address": "233 Butler St",
+        "zip": 11217
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Bar",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/public_records_exterior.jpg",
+        "interior": "https://example.com/public_records_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Raku",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "East Village",
+        "borough": "Manhattan",
+        "address": "342 E 6th St",
+        "zip": 10003
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Food",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/raku_exterior.jpg",
+        "interior": "https://example.com/raku_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Radio Bakery",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Greenpoint",
+        "borough": "Brooklyn",
+        "address": "110 Franklin St",
+        "zip": 11222
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Food",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/radio_bakery_exterior.jpg",
+        "interior": "https://example.com/radio_bakery_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Scarr’s Pizza",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Lower East Side",
+        "borough": "Manhattan",
+        "address": "22 Orchard St",
+        "zip": 10002
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Food",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/scarrs_exterior.jpg",
+        "interior": "https://example.com/scarrs_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Sey Coffee",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "East Williamsburg",
+        "borough": "Brooklyn",
+        "address": "18 Grattan St",
+        "zip": 11206
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Cafe",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/sey_coffee_exterior.jpg",
+        "interior": "https://example.com/sey_coffee_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
+    },
+    {
+      "name": "Yoseka",
+      "location": {
+        "city": "New York, NY",
+        "neighborhood": "Greenpoint",
+        "borough": "Brooklyn",
+        "address": "69 Norman Ave",
+        "zip": 11222
+      },
+      "phone": null,
+      "open": {
+        "days": null,
+        "closed": null
+      },
+      "price": null,
+      "type": "Stationery",
+      "description": null,
+      "image": {
+        "exterior": "https://example.com/yoseka_exterior.jpg",
+        "interior": "https://example.com/yoseka_interior.jpg"
+      },
+      "website": null,
+      "instagram": null
     }
   ]
 }
