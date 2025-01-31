@@ -14,3 +14,53 @@ body {
 .main {
   text-align: center;
 }
+
+.side-bar {
+  background-color: lightgrey;
+  border-right: 1px dotted #333333;
+  color: #333333;
+  width: 20vw;
+}
+
+.side-info {
+  color: black;
+  padding: 5px;
+}
+
+.main {
+  width: 80vw;
+}
+
+ul {
+  list-style: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 10;
+}
+
+img {
+  width: 200px;
+}
+
+.nycrec {
+  border: 1px dotted #333333;
+  width: 70%;
+  height: 45vh;
+  margin: 1.5em auto;
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.nycrec-info {
+  background-color: white;
+  color: black;
+  padding: 4px;
+}
+
+h3,
+h5 {
+  padding: 4px;
+}
