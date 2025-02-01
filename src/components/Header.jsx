@@ -2,8 +2,11 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-info">
-        <h1>New York City 🍎</h1>
-        <h2>tiff's faves in nyc!</h2>
+        <div class="holder">
+          <div class="news">
+            <h1>tiff's nyc recs</h1>
+          </div>
+        </div>
       </div>
     </div>
   )
