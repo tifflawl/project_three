@@ -37,10 +37,11 @@ body {
 }
 
 .main {
-  grid-area: main; /* Place in the second column */
-  overflow-y: auto; /* Allow scrolling if content overflows */
+  grid-area: main;
+  justify-content: center;
+  overflow-y: auto;
   padding: 20px;
-  background-color: white;
+  background-color: light grey;
 }
 
 p {
