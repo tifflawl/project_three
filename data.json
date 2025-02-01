@@ -16,7 +16,7 @@
       },
       "price": "$",
       "type": "Food",
-      "description": null,
+      "description": "Bagel shop offering breakfast such as smoked salmon bagels, whitefish salad, and scallion cream cheese. (My fave bagel in Manhattan!)",
       "image": {
         "exterior": "src/assets/apollo 2.jpeg",
         "interior": "src/assets/apollo 2.jpeg"
@@ -38,7 +38,7 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$$$",
       "type": "Clothing",
       "description": null,
       "image": {
@@ -258,8 +258,8 @@
       "type": "Clothing",
       "description": null,
       "image": {
-        "exterior": "https://example.com/komune_exterior.jpg",
-        "interior": "https://example.com/komune_interior.jpg"
+        "exterior": "src/assets/komune 1.jpg",
+        "interior": "src/assets/komune 2.jpg"
       },
       "website": null,
       "instagram": null

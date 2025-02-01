@@ -2,14 +2,15 @@ import './App.css'
 
 import SideBar from './components/SideBar'
 import MainContent from './components/MainContent'
+import Header from './components/Header'
 import data from '../data.json'
 
 const App = () => {
-  console.log(data)
   return (
-    <div className="flex-row">
-      <SideBar />
+    <div className="container">
+      <Header />
       <MainContent data={data} />
+      <SideBar />
     </div>
   )
 }
