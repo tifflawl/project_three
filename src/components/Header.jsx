@@ -4,7 +4,9 @@ const Header = () => {
       <div className="header-info">
         <div class="holder">
           <div class="news">
-            <h1>tiff's nyc recs</h1>
+            <a href="index.html">
+              <h1>tiff's nyc recs</h1>
+            </a>
           </div>
         </div>
       </div>
