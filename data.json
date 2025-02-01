@@ -6,7 +6,7 @@
         "city": "New York, NY",
         "neighborhood": "East Village",
         "borough": "Manhattan",
-        "address": "245 E 13th St",
+        "address": "245 E 13th St.",
         "zip": 10003
       },
       "phone": "(844) 218-3081",
@@ -30,8 +30,8 @@
         "city": "New York, NY",
         "neighborhood": "SoHo",
         "borough": "Manhattan",
-        "address": "8 Rivington St",
-        "zip": 10002
+        "address": "8 Greene St.",
+        "zip": "10013"
       },
       "phone": null,
       "open": {
@@ -40,12 +40,12 @@
       },
       "price": "$$$",
       "type": "Clothing",
-      "description": null,
+      "description": "Boutique specializing in casual menswear from Japanese brands & custom-made jeans.",
       "image": {
-        "exterior": "https://example.com/blue_in_green_exterior.jpg",
+        "exterior": "src/assets/blue in green 01.webp",
         "interior": "https://example.com/blue_in_green_interior.jpg"
       },
-      "website": null,
+      "website": "https://www.blueingreensoho.com/",
       "instagram": null
     },
     {
@@ -62,14 +62,14 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$",
       "type": "Bar",
-      "description": null,
+      "description": "Dark, trendy nightspot with a tropical accent pouring craft cocktails to fuel the DJ dance party.",
       "image": {
         "exterior": "https://example.com/bossa_nova_exterior.jpg",
         "interior": "https://example.com/bossa_nova_interior.jpg"
       },
-      "website": null,
+      "website": "https://www.instagram.com/bossanovacivicclub/?hl=en",
       "instagram": null
     },
     {
@@ -78,22 +78,22 @@
         "city": "New York, NY",
         "neighborhood": "East Village",
         "borough": "Manhattan",
-        "address": "230 E 9th St",
-        "zip": 10003
+        "address": "230 E 9th St. 2nd FL",
+        "zip": "10003"
       },
       "phone": null,
       "open": {
         "days": null,
         "closed": null
       },
-      "price": null,
-      "type": "Food",
-      "description": null,
+      "price": "$$",
+      "type": "Dessert",
+      "description": "Extensive tea list, unique sweets, and snacks are served a la carte or in formal tea ceremonies.",
       "image": {
         "exterior": "https://example.com/cha_an_exterior.jpg",
         "interior": "https://example.com/cha_an_interior.jpg"
       },
-      "website": null,
+      "website": "https://www.chaanteahouse.com",
       "instagram": null
     },
     {
@@ -110,14 +110,14 @@
         "days": null,
         "closed": null
       },
-      "price": null,
-      "type": "Food",
-      "description": null,
+      "price": "$$",
+      "type": "Bar",
+      "description": "Trendy, snug cocktail bar serving finger foods, chicken sandwiches & creative drinks. There is usually long wait, I recommend snagging a reservation first or going on off hours.",
       "image": {
         "exterior": "https://example.com/double_chicken_exterior.jpg",
         "interior": "https://example.com/double_chicken_interior.jpg"
       },
-      "website": null,
+      "website": "https://doublechickenplease.com/",
       "instagram": null
     },
     {
@@ -134,14 +134,14 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$$",
       "type": "Bar",
-      "description": null,
+      "description": "Trendy watering hole with specialty cocktails, creative bar bites & a sophisticated sound system.",
       "image": {
         "exterior": "https://example.com/eavesdrop_exterior.jpg",
         "interior": "https://example.com/eavesdrop_interior.jpg"
       },
-      "website": null,
+      "website": "https://eavesdrop.nyc",
       "instagram": null
     },
     {
@@ -158,14 +158,14 @@
         "days": null,
         "closed": null
       },
-      "price": null,
-      "type": "Food",
-      "description": null,
+      "price": "$",
+      "type": "Dessert",
+      "description": "Long-running bake shop specializing in cheesecakes, plus cookies cannoli & other sweet treats.",
       "image": {
         "exterior": "https://example.com/eileens_exterior.jpg",
         "interior": "https://example.com/eileens_interior.jpg"
       },
-      "website": null,
+      "website": "https://www.eileenscheesecake.com/",
       "instagram": null
     },
     {
@@ -182,14 +182,14 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$",
       "type": "Food",
-      "description": null,
+      "description": "Casual spot serving made-to-order pasta dishes such as mafaldine scampi and gemelli pesto, plus wine and beer.",
       "image": {
         "exterior": "https://example.com/forma_pasta_exterior.jpg",
         "interior": "https://example.com/forma_pasta_interior.jpg"
       },
-      "website": null,
+      "website": "https://www.formapasta.com/",
       "instagram": null
     },
     {
@@ -230,14 +230,14 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$",
       "type": "Food",
-      "description": null,
+      "description": "Japanese izakaya known for street-food-style fare & inexpensive beer, along with flashy decor. (I recommend going early as there can be a wait)",
       "image": {
         "exterior": "https://example.com/kenka_exterior.jpg",
         "interior": "https://example.com/kenka_interior.jpg"
       },
-      "website": null,
+      "website": "https://kenka-ny.store/",
       "instagram": null
     },
     {
@@ -261,8 +261,8 @@
         "exterior": "src/assets/komune 1.jpg",
         "interior": "src/assets/komune 2.jpg"
       },
-      "website": null,
-      "instagram": null
+      "website": "https://komune.space/",
+      "instagram": "https://www.instagram.com/komune.space/"
     },
     {
       "name": "Mood Ring",
@@ -278,15 +278,15 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$",
       "type": "Bar",
-      "description": null,
+      "description": "Cool, dimly lit bar featuring DJs & a rotating menu of astrology-inspired cocktails.",
       "image": {
         "exterior": "https://example.com/mood_ring_exterior.jpg",
         "interior": "https://example.com/mood_ring_interior.jpg"
       },
-      "website": null,
-      "instagram": null
+      "website": "https://www.moodringbar.com/",
+      "instagram": "https://www.instagram.com/moodringbar/"
     },
     {
       "name": "Museum of Modern Art",
@@ -302,15 +302,15 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$$",
       "type": "Museum",
       "description": null,
       "image": {
         "exterior": "https://example.com/moma_exterior.jpg",
         "interior": "https://example.com/moma_interior.jpg"
       },
-      "website": null,
-      "instagram": null
+      "website": "https://www.moma.org/",
+      "instagram": "https://www.instagram.com/museumofmodernart/"
     },
     {
       "name": "Nintendo Store",
@@ -326,15 +326,15 @@
         "days": null,
         "closed": null
       },
-      "price": null,
-      "type": "Retail",
+      "price": "$",
+      "type": "Store",
       "description": null,
       "image": {
         "exterior": "https://example.com/nintendo_exterior.jpg",
         "interior": "https://example.com/nintendo_interior.jpg"
       },
-      "website": null,
-      "instagram": null
+      "website": "https://www.nintendo.com/store/",
+      "instagram": "https://www.instagram.com/nintendo/"
     },
     {
       "name": "Noguchi Museum",
@@ -350,15 +350,15 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$",
       "type": "Museum",
-      "description": null,
+      "description": "Founded and designed by Isamu Noguchi (1904–1988), and committed to advancing the appreciation of his art and legacy.",
       "image": {
         "exterior": "https://example.com/noguchi_exterior.jpg",
         "interior": "https://example.com/noguchi_interior.jpg"
       },
-      "website": null,
-      "instagram": null
+      "website": "https://www.noguchi.org/",
+      "instagram": "https://www.instagram.com/noguchimuseum/"
     },
     {
       "name": "Nowadays",
@@ -376,13 +376,13 @@
       },
       "price": null,
       "type": "Bar",
-      "description": null,
+      "description": "My favorite club in NYC. Huge outdoor space, great sound system, curated bookings.",
       "image": {
         "exterior": "https://example.com/nowadays_exterior.jpg",
         "interior": "https://example.com/nowadays_interior.jpg"
       },
-      "website": null,
-      "instagram": null
+      "website": "https://www.nowadays.nyc/",
+      "instagram": "https://www.instagram.com/nowadaysnyc/"
     },
     {
       "name": "Paulie Gee’s Slice Shop",
@@ -398,15 +398,15 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$",
       "type": "Food",
-      "description": null,
+      "description": "One of my fave slice shops in the city, try the Freddie Prince Sicilian Slice & Hell Boy Slice.",
       "image": {
         "exterior": "https://example.com/paulie_gees_exterior.jpg",
         "interior": "https://example.com/paulie_gees_interior.jpg"
       },
-      "website": null,
-      "instagram": null
+      "website": "https://www.pauliegee.com/",
+      "instagram": "https://www.instagram.com/pauliegees/"
     },
     {
       "name": "Printed Matter",
@@ -424,13 +424,13 @@
       },
       "price": null,
       "type": "Bookstore",
-      "description": null,
+      "description": "Eclectic nonprofit art bookstore & gallery offering a large selection of publications by artists. They hold an annual art book fair that's definitely worth a visit!",
       "image": {
         "exterior": "https://example.com/printed_matter_exterior.jpg",
         "interior": "https://example.com/printed_matter_interior.jpg"
       },
-      "website": null,
-      "instagram": null
+      "website": "https://www.printedmatter.org/",
+      "instagram": "https://www.instagram.com/printedmatterinc/"
     },
     {
       "name": "Public Records",
@@ -448,36 +448,36 @@
       },
       "price": null,
       "type": "Bar",
-      "description": null,
+      "description": "Hi-fi record bar with food & drink offerings plus an intimate performance space & vegan cafe.",
       "image": {
         "exterior": "https://example.com/public_records_exterior.jpg",
         "interior": "https://example.com/public_records_interior.jpg"
       },
-      "website": null,
+      "website": "https://publicrecords.nyc/",
       "instagram": null
     },
     {
       "name": "Raku",
       "location": {
         "city": "New York, NY",
-        "neighborhood": "East Village",
+        "neighborhood": "SoHo",
         "borough": "Manhattan",
-        "address": "342 E 6th St",
-        "zip": 10003
+        "address": "48 MacDougal St.",
+        "zip": 10012
       },
       "phone": null,
       "open": {
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$$",
       "type": "Food",
-      "description": null,
+      "description": "Udon specialist offering gourmet noodle soups & other traditional Japanese bites.",
       "image": {
         "exterior": "https://example.com/raku_exterior.jpg",
         "interior": "https://example.com/raku_interior.jpg"
       },
-      "website": null,
+      "website": "https://www.rakunyc.com",
       "instagram": null
     },
     {
@@ -486,7 +486,7 @@
         "city": "New York, NY",
         "neighborhood": "Greenpoint",
         "borough": "Brooklyn",
-        "address": "110 Franklin St",
+        "address": "135 India St.",
         "zip": 11222
       },
       "phone": null,
@@ -494,14 +494,14 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$$",
       "type": "Food",
-      "description": null,
+      "description": "A New York City bakery with a focus on sweet & savory croissants, sourdough bread and sandwiches.",
       "image": {
         "exterior": "https://example.com/radio_bakery_exterior.jpg",
         "interior": "https://example.com/radio_bakery_interior.jpg"
       },
-      "website": null,
+      "website": "https://www.radiobakery.nyc/",
       "instagram": null
     },
     {
@@ -518,14 +518,14 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$",
       "type": "Food",
-      "description": null,
+      "description": "Pizzeria with retro looks serving pies, slices & subs made with modern ingredients.",
       "image": {
         "exterior": "https://example.com/scarrs_exterior.jpg",
         "interior": "https://example.com/scarrs_interior.jpg"
       },
-      "website": null,
+      "website": "https://www.scarrspizza.com/",
       "instagram": null
     },
     {
@@ -534,7 +534,7 @@
         "city": "New York, NY",
         "neighborhood": "East Williamsburg",
         "borough": "Brooklyn",
-        "address": "18 Grattan St",
+        "address": "18 Grattan St.",
         "zip": 11206
       },
       "phone": null,
@@ -544,7 +544,7 @@
       },
       "price": null,
       "type": "Cafe",
-      "description": null,
+      "description": "Contemporary micro roastery serving coffee and pastries in a plant-filled space with a skylight.",
       "image": {
         "exterior": "https://example.com/sey_coffee_exterior.jpg",
         "interior": "https://example.com/sey_coffee_interior.jpg"
@@ -553,12 +553,12 @@
       "instagram": null
     },
     {
-      "name": "Yoseka",
+      "name": "Yoseka Stationery",
       "location": {
         "city": "New York, NY",
         "neighborhood": "Greenpoint",
         "borough": "Brooklyn",
-        "address": "69 Norman Ave",
+        "address": "69 Norman Ave.",
         "zip": 11222
       },
       "phone": null,
@@ -566,14 +566,14 @@
         "days": null,
         "closed": null
       },
-      "price": null,
-      "type": "Stationery",
-      "description": null,
+      "price": "$$",
+      "type": "Store",
+      "description": "Founded in 1981, this stationery shop sells planners, pens, notebooks, stickers, and other writing supplies.",
       "image": {
         "exterior": "https://example.com/yoseka_exterior.jpg",
         "interior": "https://example.com/yoseka_interior.jpg"
       },
-      "website": null,
+      "website": "https://yosekastationery.com/",
       "instagram": null
     }
   ]

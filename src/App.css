@@ -24,6 +24,12 @@ body {
   background-color: magenta;
 }
 
+.header-info {
+  margin: 10px;
+  font-size: 28px;
+  color: black;
+}
+
 .side-bar {
   grid-area: side-bar;
   display: flex;

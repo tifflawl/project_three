@@ -3,9 +3,11 @@ const Nycrec = ({ nycrec }) => {
     <li className="nycrec" id={nycrec.name}>
       <div className="nycrec-info">
         <h2>
-          <a href={nycrec.website}>{nycrec.name}</a>
+          <a href={nycrec.website} target="_blank">
+            {nycrec.name}
+          </a>
         </h2>
-        <a href={nycrec.website}>
+        <a href={nycrec.website} target="_blank">
           <img src={nycrec.image.exterior} />
         </a>
 
@@ -13,7 +15,9 @@ const Nycrec = ({ nycrec }) => {
           {nycrec.type} | {nycrec.price} | {nycrec.location.neighborhood}, {}
           {nycrec.location.borough}
         </h5>
-        <h5>Address: {nycrec.address}</h5>
+        <h5>
+          {nycrec.location.address} {nycrec.location.city} {nycrec.location.zip}
+        </h5>
         <p>{nycrec.description}</p>
       </div>
     </li>
