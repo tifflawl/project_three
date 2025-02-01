@@ -9,9 +9,11 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 6fr;
+  grid-template-rows: 10vh 85vh 5vh;
   grid-template-areas:
     'header header'
-    'side-bar main';
+    'side-bar main'
+    'footer footer';
 }
 
 .header {
@@ -23,7 +25,7 @@ body {
 }
 
 .side-bar {
-  grid-area: side-bar; /* Place in the first column */
+  grid-area: side-bar;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -44,6 +46,54 @@ body {
   overflow: auto;
   text-align: center;
   background-color: lightgrey;
+}
+
+.footer {
+  background-color: magenta;
+  font-size: xx-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header,
+.footer {
+  grid-column: span 2;
+}
+
+.holder {
+  background: transparent;
+  overflow: hidden;
+}
+.news {
+  animation: slide 20s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slide {
+  0% {
+    transform: translatex(0%);
+  }
+
+  100% {
+    transform: translatex(100%);
+  }
+}
+
+.nycrec {
+  border: 2px dotted rgb(11, 11, 11);
+  border-radius: 5px;
+  width: 80%;
+  height: fit-content;
+  margin: 1.5em auto;
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.nycrec-info {
+  background-color: white;
+  color: black;
+  padding: 4px;
 }
 
 p {
@@ -67,20 +117,4 @@ ul {
 
 img {
   width: 60%;
-}
-
-.nycrec {
-  border: 2px dotted rgb(11, 11, 11);
-  border-radius: 5px;
-  width: 80%;
-  height: fit-content;
-  margin: 1.5em auto;
-  border-radius: 6px;
-  background-size: cover;
-}
-
-.nycrec-info {
-  background-color: white;
-  color: black;
-  padding: 4px;
 }

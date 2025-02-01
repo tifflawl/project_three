@@ -10,8 +10,8 @@ const Nycrec = ({ nycrec }) => {
         </a>
 
         <h5>
-          {nycrec.type} | {nycrec.price} | {nycrec.location.borough},{' '}
-          {nycrec.location.neighborhood}
+          {nycrec.type} | {nycrec.price} | {nycrec.location.neighborhood}, {}
+          {nycrec.location.borough}
         </h5>
         <h5>Address: {nycrec.address}</h5>
         <p>{nycrec.description}</p>
