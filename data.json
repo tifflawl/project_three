@@ -304,7 +304,7 @@
       },
       "price": "$$",
       "type": "Museum",
-      "description": null,
+      "description": "worth a visit",
       "image": {
         "exterior": "src/assets/moma 01.jpg",
         "interior": ""
@@ -328,7 +328,7 @@
       },
       "price": "$",
       "type": "Store",
-      "description": null,
+      "description": "two story nintendo store for all your nintendo merch needs (they sell pikmin here :D) ",
       "image": {
         "exterior": "src/assets/nintendo 01.jpg",
         "interior": ""

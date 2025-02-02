@@ -4,7 +4,7 @@ const Nycrec = ({ nycrec }) => {
       <div className="nycrec-info">
         <h2>
           <a href={nycrec.website} target="_blank">
-            {nycrec.name}
+            ☆ {nycrec.name} ☆
           </a>
         </h2>
         <a href={nycrec.website} target="_blank">

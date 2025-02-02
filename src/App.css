@@ -21,13 +21,18 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: magenta;
+  background-color: blue;
 }
 
 .header-info {
   margin: 10px;
   font-size: 28px;
-  color: black;
+  color: white;
+}
+
+.header-info a {
+  color: white;
+  text-decoration: none;
 }
 
 .side-bar {
@@ -55,11 +60,17 @@ body {
 }
 
 .footer {
-  background-color: magenta;
+  background-color: blue;
   font-size: xx-small;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
 }
 
 .header,
@@ -99,7 +110,10 @@ body {
 .nycrec-info {
   background-color: white;
   color: black;
-  padding: 4px;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
 }
 
 p {
@@ -112,7 +126,7 @@ a {
 }
 
 a:hover {
-  color: magenta;
+  color: blue;
 }
 
 ul {
