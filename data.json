@@ -304,7 +304,7 @@
       },
       "price": "$$",
       "type": "Museum",
-      "description": "worth a visit",
+      "description": "quintessential nyc museum, 5 floors, rooftop, sculpture garden. worth a visit",
       "image": {
         "exterior": "src/assets/moma 01.jpg",
         "interior": ""
@@ -374,7 +374,7 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$$",
       "type": "Bar",
       "description": "My favorite club in NYC. Huge outdoor space, great sound system, curated bookings.",
       "image": {
@@ -422,7 +422,7 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$-$$",
       "type": "Bookstore",
       "description": "Eclectic nonprofit art bookstore & gallery offering a large selection of publications by artists. They hold an annual art book fair that's definitely worth a visit!",
       "image": {
@@ -446,7 +446,7 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$$",
       "type": "Bar",
       "description": "Hi-fi record bar with food & drink offerings plus an intimate performance space & vegan cafe.",
       "image": {
@@ -542,7 +542,7 @@
         "days": null,
         "closed": null
       },
-      "price": null,
+      "price": "$",
       "type": "Cafe",
       "description": "Contemporary micro roastery serving coffee and pastries in a plant-filled space with a skylight.",
       "image": {

@@ -7,9 +7,11 @@ const Nycrec = ({ nycrec }) => {
             ☆ {nycrec.name} ☆
           </a>
         </h2>
-        <a href={nycrec.website} target="_blank">
-          <img src={nycrec.image.exterior} />
-        </a>
+        <div className="imgcontainer">
+          <a href={nycrec.website} target="_blank">
+            <img src={nycrec.image.exterior} class="image" />
+          </a>
+        </div>
 
         <h5>
           {nycrec.type} | {nycrec.price} | {nycrec.location.neighborhood}, {}

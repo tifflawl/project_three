@@ -38,9 +38,10 @@ body {
 .side-bar {
   grid-area: side-bar;
   display: flex;
+  grid-template-rows: 0fr 0fr 0fr 0fr 1fr;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: baseline;
+  align-items: start;
   background-color: lightgray;
   font-weight: 600;
   text-align: left;
@@ -137,4 +138,20 @@ ul {
 
 img {
   width: 60%;
+  height: auto;
+  border-radius: 5%;
+  border: 1px solid #000000;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.imgcontainer:hover .image {
+  opacity: 0.8;
 }
