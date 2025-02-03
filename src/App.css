@@ -60,6 +60,11 @@ body {
   background-color: lightgrey;
 }
 
+.main,
+h4 {
+  font-weight: 300;
+}
+
 .footer {
   background-color: blue;
   font-size: xx-small;
