@@ -36,7 +36,7 @@ const Weather = () => {
       {weather && (
         <div>
           <p>
-            currently the temperature is {weather.main.temp}°F +{' '}
+            the temperature is {weather.main.temp}°F +{' '}
             {weather.weather[0].description}.
           </p>
         </div>
