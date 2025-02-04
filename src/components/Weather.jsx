@@ -1,43 +1,48 @@
-import './styles.css'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 
-const cityList = ['Helsinki', 'Tampere', 'Turku', 'Oulu']
+const Weather = () => {
+  const [weather, setWeather] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
 
-export default function Weather() {
-  const [weather, setWeather] = React.useState()
-  const [city, setCity] = React.useState('Helsinki')
+  const apiKey = 'efa49ccc449f9f72bda3ddedcbfe8373'
+  const city = 'Manhattan'
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`
 
-  const fetchWeather = (city) => {
-    fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=dc6e198d710d27211ed68a445d1bb01e`
-    )
-      .then((response) => response.json())
-      .then((data) => {
-        setWeather(data)
+  useEffect(() => {
+    axios
+      .get(url)
+      .then((response) => {
+        if (response.data && response.data.main && response.data.weather) {
+          setWeather(response.data)
+        } else {
+          throw new Error('Invalid weather data format')
+        }
+        setLoading(false)
       })
-  }
+      .catch((error) => {
+        console.error('Error fetching weather data:', error)
+        setError(error)
+        setLoading(false)
+      })
+  }, [url])
 
-  React.useEffect(() => {
-    fetchWeather(city)
-  }, [city])
+  if (loading) return <div>Loading...</div>
+  if (error) return <div>Error: {error.message}</div>
 
   return (
-    <div className="App">
-      <div>
-        <select
-          onChange={(e) => {
-            setCity(e.target.value)
-          }}
-        >
-          {cityList.map((city) => (
-            <option value={city}>{city}</option>
-          ))}
-        </select>
-      </div>
-      <div style={{ marginTop: '20px' }}>
-        <div>Temparature : {weather?.main?.temp}</div>
-        <div>Weather : {weather?.weather?.[0]?.main}</div>
-      </div>
+    <div>
+      <h3>☁️ {city}</h3>
+      {weather && (
+        <div>
+          <p>
+            It's {weather.main.temp}°F & {weather.weather[0].description}
+          </p>
+        </div>
+      )}
     </div>
   )
 }
+
+export default Weather
