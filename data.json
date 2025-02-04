@@ -474,7 +474,7 @@
       "type": "Food",
       "description": "Udon specialist offering gourmet noodle soups & other traditional Japanese bites.",
       "image": {
-        "exterior": "src/assets/raku 01.jpg",
+        "exterior": "src/assets/raku 01.webp",
         "interior": ""
       },
       "website": "https://www.rakunyc.com",
