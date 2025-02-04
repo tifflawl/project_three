@@ -1,3 +1,5 @@
+import DateTime from './DateTime'
+
 const Footer = () => {
   return (
     <div className="footer">
