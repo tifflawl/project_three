@@ -1,4 +1,4 @@
-const SideBar = () => {
+const SideBar = ({ data }) => {
   return (
     <div className="side-bar">
       <div className="side-info">

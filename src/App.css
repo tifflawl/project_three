@@ -86,20 +86,22 @@ h4 {
 
 .holder {
   background: transparent;
-  overflow: hidden;
+  overflow: hidden; /* Hide overflow to create a seamless scroll effect */
+  position: relative; /* Ensure the footer is the bounding box for the animation */
+  width: 200%; /* Make sure the holder spans the full width of the footer */
 }
+
 .news {
-  animation: slide 20s linear infinite;
-  animation-direction: alternate;
+  white-space: wrap; /* Prevent text from wrapping */
+  animation: slide 10s linear infinite;
 }
 
 @keyframes slide {
   0% {
-    transform: translatex(0%);
+    transform: translateX(-100%); /* Start text off-screen to the left */
   }
-
   100% {
-    transform: translatex(100%);
+    transform: translateX(100%); /* Move text off-screen to the right */
   }
 }
 
