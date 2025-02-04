@@ -1,19 +1,31 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
-export const DateTime = () => {
-  var [date, setDate] = useState(new Date())
+const DateTime = () => {
+  const [time, setTime] = useState('')
 
   useEffect(() => {
-    var timer = setInterval(() => setDate(new Date()), 1000)
-    return function cleanup() {
-      clearInterval(timer)
+    const updateTime = () => {
+      const options = {
+        timeZone: 'America/New_York', // Eastern Time
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: true // Adjust based on preference
+      }
+      setTime(new Date().toLocaleString('en-US', options))
     }
-  })
+
+    updateTime()
+    const interval = setInterval(updateTime, 1000)
+
+    return () => clearInterval(interval)
+  }, [])
 
   return (
     <div>
-      <p> 🗓️ {date.toLocaleDateString()}</p>
-      <p> ⏳ {date.toLocaleTimeString()}</p>
+      <p>
+        The time is <b>{time}</b>
+      </p>
     </div>
   )
 }

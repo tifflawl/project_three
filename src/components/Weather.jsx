@@ -7,7 +7,7 @@ const Weather = () => {
   const [error, setError] = useState(null)
 
   const apiKey = 'efa49ccc449f9f72bda3ddedcbfe8373'
-  const city = 'Manhattan'
+  const city = 'Brooklyn'
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`
 
   useEffect(() => {
@@ -33,11 +33,11 @@ const Weather = () => {
 
   return (
     <div>
-      <h3>☁️ {city}</h3>
       {weather && (
         <div>
           <p>
-            It's {weather.main.temp}°F & {weather.weather[0].description}
+            currently the temperature is {weather.main.temp}°F +{' '}
+            {weather.weather[0].description}.
           </p>
         </div>
       )}
