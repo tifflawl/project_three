@@ -18,8 +18,8 @@
       "type": "Food",
       "description": "Bagel shop offering breakfast such as smoked salmon bagels, whitefish salad, and scallion cream cheese. (My fave bagel in Manhattan!)",
       "image": {
-        "exterior": "src/assets/apollo 2.jpeg",
-        "interior": "src/assets/apollo 2.jpeg"
+        "exterior": "assets/apollo 2.jpeg",
+        "interior": "assets/apollo 2.jpeg"
       },
       "website": "https://www.apollobagels.com/",
       "instagram": "https://www.instagram.com/apollobagels"
@@ -42,8 +42,8 @@
       "type": "Clothing",
       "description": "Boutique specializing in casual menswear from Japanese brands & custom-made jeans.",
       "image": {
-        "exterior": "src/assets/blue in green 01.webp",
-        "interior": "https://example.com/blue_in_green_interior.jpg"
+        "exterior": "assets/blue in green 01.webp",
+        "interior": ""
       },
       "website": "https://www.blueingreensoho.com/",
       "instagram": null
@@ -66,8 +66,8 @@
       "type": "Bar",
       "description": "Dark, trendy nightspot with a tropical accent pouring craft cocktails to fuel the DJ dance party.",
       "image": {
-        "exterior": "src/assets/bossa 01.jpeg",
-        "interior": "https://example.com/bossa_nova_interior.jpg"
+        "exterior": "assets/bossa 01.jpeg",
+        "interior": ""
       },
       "website": "https://www.instagram.com/bossanovacivicclub/?hl=en",
       "instagram": null
@@ -90,7 +90,7 @@
       "type": "Dessert",
       "description": "Extensive tea list, unique sweets, and snacks are served a la carte or in formal tea ceremonies.",
       "image": {
-        "exterior": "src/assets/Cha An 01.jpg",
+        "exterior": "assets/Cha An 01.jpg",
         "interior": ""
       },
       "website": "https://www.chaanteahouse.com",
@@ -114,7 +114,7 @@
       "type": "Bar",
       "description": "Trendy, snug cocktail bar serving finger foods, chicken sandwiches & creative drinks. There is usually long wait, I recommend snagging a reservation first or going on off hours.",
       "image": {
-        "exterior": "src/assets/double chicken please 01.webp",
+        "exterior": "assets/double chicken please 01.webp",
         "interior": ""
       },
       "website": "https://doublechickenplease.com/",
@@ -138,8 +138,8 @@
       "type": "Bar",
       "description": "Trendy watering hole with specialty cocktails, creative bar bites & a sophisticated sound system.",
       "image": {
-        "exterior": "src/assets/eavesdrop 01.jpg",
-        "interior": "https://example.com/eavesdrop_interior.jpg"
+        "exterior": "assets/eavesdrop 01.jpg",
+        "interior": ""
       },
       "website": "https://eavesdrop.nyc",
       "instagram": null
@@ -162,8 +162,8 @@
       "type": "Dessert",
       "description": "Long-running bake shop specializing in cheesecakes, plus cookies cannoli & other sweet treats.",
       "image": {
-        "exterior": "src/assets/eileens 01.jpeg",
-        "interior": "https://example.com/eileens_interior.jpg"
+        "exterior": "assets/eileens 01.jpeg",
+        "interior": ""
       },
       "website": "https://www.eileenscheesecake.com/",
       "instagram": null
@@ -186,8 +186,8 @@
       "type": "Food",
       "description": "Casual spot serving made-to-order pasta dishes such as mafaldine scampi and gemelli pesto, plus wine and beer.",
       "image": {
-        "exterior": "src/assets/formapasta 01.webp",
-        "interior": "https://example.com/forma_pasta_interior.jpg"
+        "exterior": "assets/formapasta 01.webp",
+        "interior": ""
       },
       "website": "https://www.formapasta.com/",
       "instagram": null
@@ -210,7 +210,7 @@
       "type": "Clothing",
       "description": "Archival '90s fashion meets futuristic video game aesthetics in Happy99's colorful, anachronistic clothes.",
       "image": {
-        "exterior": "src/assets/happy99 01.jpg",
+        "exterior": "assets/happy99 01.jpg",
         "interior": ""
       },
       "website": "https://happy99.online/",
@@ -234,7 +234,7 @@
       "type": "Food",
       "description": "Japanese izakaya known for street-food-style fare & inexpensive beer, along with flashy decor. (I recommend going early as there can be a wait)",
       "image": {
-        "exterior": "src/assets/kenka 01.jpeg",
+        "exterior": "assets/kenka 01.jpeg",
         "interior": ""
       },
       "website": "https://kenka-ny.store/",
@@ -258,7 +258,7 @@
       "type": "Clothing",
       "description": "A curated selection of emerging Asian fashion designers",
       "image": {
-        "exterior": "src/assets/komune 2.jpg",
+        "exterior": "assets/komune 2.jpg",
         "interior": ""
       },
       "website": "https://komune.space/",
@@ -282,7 +282,7 @@
       "type": "Bar",
       "description": "Cool, dimly lit bar featuring DJs & a rotating menu of astrology-inspired cocktails.",
       "image": {
-        "exterior": "src/assets/mood ring 01.jpg",
+        "exterior": "assets/mood ring 01.jpg",
         "interior": ""
       },
       "website": "https://www.moodringbar.com/",
@@ -306,7 +306,7 @@
       "type": "Museum",
       "description": "quintessential nyc museum, 5 floors, rooftop, sculpture garden. worth a visit",
       "image": {
-        "exterior": "src/assets/moma 01.jpg",
+        "exterior": "assets/moma 01.jpg",
         "interior": ""
       },
       "website": "https://www.moma.org/",
@@ -330,7 +330,7 @@
       "type": "Store",
       "description": "two story nintendo store for all your nintendo merch needs (they sell pikmin here :D) ",
       "image": {
-        "exterior": "src/assets/nintendo 01.jpg",
+        "exterior": "assets/nintendo 01.jpg",
         "interior": ""
       },
       "website": "https://www.nintendo.com/store/",
@@ -354,7 +354,7 @@
       "type": "Museum",
       "description": "Founded and designed by Isamu Noguchi (1904–1988), and committed to advancing the appreciation of his art and legacy.",
       "image": {
-        "exterior": "src/assets/noguchi 01.webp",
+        "exterior": "assets/noguchi 01.webp",
         "interior": ""
       },
       "website": "https://www.noguchi.org/",
@@ -378,7 +378,7 @@
       "type": "Bar",
       "description": "My favorite club in NYC. Huge outdoor space, great sound system, curated bookings.",
       "image": {
-        "exterior": "src/assets/nowadays 01.jpg",
+        "exterior": "assets/nowadays 01.jpg",
         "interior": ""
       },
       "website": "https://www.nowadays.nyc/",
@@ -402,7 +402,7 @@
       "type": "Food",
       "description": "One of my fave slice shops in the city, try the Freddie Prince Sicilian Slice & Hell Boy Slice.",
       "image": {
-        "exterior": "src/assets/paulie gees 01.jpg",
+        "exterior": "assets/paulie gees 01.jpg",
         "interior": ""
       },
       "website": "https://www.pauliegee.com/",
@@ -426,7 +426,7 @@
       "type": "Bookstore",
       "description": "Eclectic nonprofit art bookstore & gallery offering a large selection of publications by artists. They hold an annual art book fair that's definitely worth a visit!",
       "image": {
-        "exterior": "src/assets/printed matter 01.jpg",
+        "exterior": "assets/printed matter 01.jpg",
         "interior": ""
       },
       "website": "https://www.printedmatter.org/",
@@ -450,7 +450,7 @@
       "type": "Bar",
       "description": "Hi-fi record bar with food & drink offerings plus an intimate performance space & vegan cafe.",
       "image": {
-        "exterior": "src/assets/public records 01.jpg",
+        "exterior": "assets/public records 01.jpg",
         "interior": ""
       },
       "website": "https://publicrecords.nyc/",
@@ -474,7 +474,7 @@
       "type": "Food",
       "description": "Udon specialist offering gourmet noodle soups & other traditional Japanese bites.",
       "image": {
-        "exterior": "src/assets/raku 01.webp",
+        "exterior": "assets/raku 01.webp",
         "interior": ""
       },
       "website": "https://www.rakunyc.com",
@@ -498,7 +498,7 @@
       "type": "Food",
       "description": "A New York City bakery with a focus on sweet & savory croissants, sourdough bread and sandwiches.",
       "image": {
-        "exterior": "src/assets/radio bakery 01.jpeg",
+        "exterior": "assets/radio bakery 01.jpeg",
         "interior": ""
       },
       "website": "https://www.radiobakery.nyc/",
@@ -522,7 +522,7 @@
       "type": "Food",
       "description": "Pizzeria with retro looks serving pies, slices & subs made with modern ingredients.",
       "image": {
-        "exterior": "src/assets/scarrs 01.webp",
+        "exterior": "assets/scarrs 01.webp",
         "interior": ""
       },
       "website": "https://www.scarrspizza.com/",
@@ -546,7 +546,7 @@
       "type": "Cafe",
       "description": "Contemporary micro roastery serving coffee and pastries in a plant-filled space with a skylight.",
       "image": {
-        "exterior": "src/assets/sey 01.jpeg",
+        "exterior": "assets/sey 01.jpeg",
         "interior": ""
       },
       "website": "https://www.seycoffee.com/",
@@ -570,7 +570,7 @@
       "type": "Store",
       "description": "Founded in 1981, this stationery shop sells planners, pens, notebooks, stickers, and other writing supplies.",
       "image": {
-        "exterior": "src/assets/yoseka 01.jpg",
+        "exterior": "assets/yoseka 01.jpg",
         "interior": ""
       },
       "website": "https://yosekastationery.com/",
